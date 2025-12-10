@@ -1,4 +1,4 @@
-Ahora, vamos a añadir las salidas a una tabla con los resultados de todos los intentos. En primer lugar, tenemos que añadir dos variables de estado como claves de st.session_state. El estado de la sesión se conserva tras cada nueva ejecución de la aplicación Streamlit. A continuación, añadimos la recopilación de los resultados de todos los intentos en el DataFrame guardado como st.session_state['df_experiment_results'].
+
 
 import pandas as pd
 import scipy.stats
